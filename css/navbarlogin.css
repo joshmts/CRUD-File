@@ -1,0 +1,130 @@
+.navbar .btn-primary, .navbar .btn-primary:active {
+	color: #fff;
+	background: #717174 !important;
+	border: none;
+}	
+.navbar .btn-primary:hover, .navbar .btn-primary:focus {		
+	color: #fff;
+	background: #333535 !important;
+}
+
+.navbar .action-buttons .dropdown-toggle::after {
+	display: none;
+}
+
+.nav-item {
+	color: #fff;
+}
+
+.search-box {
+	position: relative;
+	background: transparent;
+}	
+.search-box input {
+	padding-right: 35px;
+	border-color: #dfe3e8;
+	border-radius: 4px !important;
+	box-shadow: none
+}
+.search-box .input-group-text {
+	min-width: 35px;
+	border: none;
+	background: transparent;
+	position: absolute;
+	right: 0;
+	z-index: 9;
+	padding: 7px;
+	height: 100%;
+}
+.search-box i {
+	color: #a0a5b1;
+	font-size: 19px;
+	background: transparent;
+}
+
+#bsit {
+	position: relative;
+	width: 100%;
+	height: auto;
+	min-height: 35rem;
+	padding: 15rem 0;
+	background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/background/bg-bsit.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: cover;
+	}
+	
+	#bsit h1 {
+	font-family: 'Varela Round';
+	font-size: 2.5rem;
+	line-height: 2.5rem;
+	letter-spacing: 0.8rem;
+	background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	}
+	
+	#bsit h2 {
+	max-width: 20rem;
+	font-size: 1rem;
+	}
+	
+	#bsit h1 {
+		font-size: 6.5rem;
+		line-height: 6.5rem;
+		letter-spacing: 0.8rem;
+	}
+	#bsit h2 {
+		max-width: 30rem;
+		font-size: 1.25rem;
+	}
+	@media (min-width: 768px) {
+	#bsit h1 {
+		font-size: 4rem;
+		line-height: 4rem;
+	}
+	}
+	
+	@media (min-width: 992px) {
+	#bsit {
+		height: 100vh;
+		padding: 0;
+	}
+	}
+	
+	#bsit .btn {
+		box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+		padding: 1rem 1rem;
+		font-family: 'Varela Round';
+		font-size: 80%;
+		text-transform: uppercase;
+		letter-spacing: .15rem;
+		border: 0;
+	  }
+	#bsit .btn-primary {
+	background-color: #5e5858;
+	}
+	
+	#bsit .btn-primary:hover {
+	background-color: #666c83;
+	}
+	
+	#bsit .btn-primary:focus {
+	background-color: #636366;
+	color: white;
+	}
+	
+	#bsit .btn-primary:active {
+	background-color: #515761 s;
+	}
+	
+	
+	#bsit a {
+	color: #ffffff;
+	}
+	
+	#bsit a:focus, a:hover {
+	text-decoration: none;
+	color: #091110;
+	}
